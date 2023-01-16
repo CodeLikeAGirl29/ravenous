@@ -4,15 +4,11 @@
   justify-content: space-between;
   width: 16.66rem;
   margin: 0 .5rem 2.3rem .5rem;
-  border-bottom: 2px solid #cca353;
 }
 
 .Business .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
-  box-shadow: 2px 6px 5px #cca353;
-  -moz-box-shadow: 2px 5px 5px #cca353;
-  -webkit-box-shadow: 2px 5px 5px #cca353;
 }
 
 .Business h2 {
@@ -48,7 +44,6 @@
 .Business-reviews h3 {
   color: #CCA353;
   font-weight: 600;
-  font-size: 1.1rem;
 }
 
 .Business-reviews .rating {
