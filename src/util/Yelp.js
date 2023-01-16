@@ -6,7 +6,7 @@ const secret = 'TSgUd_fxwRpjgA1qF4BowID8kpiNgYQuxEE75m4JzW40UH_TxGLWK2_D0P4gMsTH
 let accessToken;
 
 const Yelp = {
-  getAccessToken: function() {
+  getAccessToken: function () {
     if (accessToken) {
       return new Promise(resolve => resolve(accessToken));
     }
@@ -20,7 +20,7 @@ const Yelp = {
       accessToken = jsonResponse.access_token;
     });
   },
-  search: function(term, location, sortBy) {
+  search: function (term, location, sortBy) {
     return Yelp.getAccessToken().then(() => {
       // To retrieve businesses, you'll have to hit the /businesses endpoint of the Yelp API.
       return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
