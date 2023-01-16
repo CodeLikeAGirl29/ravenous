@@ -1,8 +1,8 @@
 // Yelp API https://www.yelp.com/developers/v3/manage_app?app_created=True
-// Yelp ClientID: iJwixUBN4GUMrcm6TF4e4g
-// Yelp Secret: ayM8TSldvchnTG7xJles311Ytmyzn2iZG0AkuWClDDgJazYugY6UxJms16HowjV6
-const clientId = 'iJwixUBN4GUMrcm6TF4e4g';
-const secret = 'ayM8TSldvchnTG7xJles311Ytmyzn2iZG0AkuWClDDgJazYugY6UxJms16HowjV6';
+// Yelp ClientID: ftz6NR57gEFZY3as5uxQqg
+// Yelp Secret: TSgUd_fxwRpjgA1qF4BowID8kpiNgYQuxEE75m4JzW40UH_TxGLWK2_D0P4gMsTHvtWAyWeiVwY0ME-r_GmwJYQT5oRSvs3DRGTd-9Ken4q1fWxwLdEBsy2aE8qRY3Yx
+const clientId = 'ftz6NR57gEFZY3as5uxQqg';
+const secret = 'TSgUd_fxwRpjgA1qF4BowID8kpiNgYQuxEE75m4JzW40UH_TxGLWK2_D0P4gMsTHvtWAyWeiVwY0ME-r_GmwJYQT5oRSvs3DRGTd-9Ken4q1fWxwLdEBsy2aE8qRY3Yx';
 let accessToken;
 
 const Yelp = {
